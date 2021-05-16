@@ -8,7 +8,7 @@ new bool:Knife[33];
 
 public plugin_init()
 {
-	register_plugin("GodMode", "1.0", "Meliodas")
+	register_plugin("KnifeDeploy", "1.0", "Meliodas")
 	RegisterHam(Ham_Spawn, "player", "Ham_PlayerSpawn_Post", 1)
 	register_clcmd("say /knifedp", "DmgGm")
 	register_clcmd("knifedp", "DmgGm")
